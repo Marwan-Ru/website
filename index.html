@@ -90,6 +90,48 @@
       </td>
     </tr>
 
+    <tr onmouseout="Eco_garden_stop()" onmouseover="Eco_garden_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='eco_garden_image'>
+					  <img src='images/eco_garden_after.png' width=100%>
+					</div>
+          <img src='images/eco_garden_before.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function eco_garden_start() {
+            document.getElementById('eco_garden_image').style.opacity = "1";
+          }
+
+          function eco_garden_stop() {
+            document.getElementById('eco_garden_image').style.opacity = "0";
+          }
+          eco_garden_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://github.com/KatSukiFireStar/EcoGarden">
+			<span class="papertitle">ECO GARDEN: A VR Gardening game developped using Unreal Engine 5
+</span>
+        </a>
+        <br>
+				<a href="https://github.com/KatSukiFireStar">Flavien Gonin</a>,
+				<strong>Marwan Ait Addi</strong>,
+        Anna Sarbiewski,
+        Ivan Rocque,
+        Anis Hammouche,
+        Alex Clorennec
+				<br>
+        <em>Lyon 2 University</em>, 2024
+        <br>
+        <a href="https://github.com/KatSukiFireStar/EcoGarden"">project page</a>
+        <p></p>
+        <p>
+				VR Gardening game Proof of concept developped during our Virtual Reality courses. Very short deadline, using Unreal Engine and open assets.
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="raytracer_stop()" onmouseover="raytracer_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
